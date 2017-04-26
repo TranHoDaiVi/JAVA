@@ -24,7 +24,15 @@ public class AWTCounter extends Frame implements ActionListener {
 			btnCount.addActionListener(this);	
 			setTitle("AWTCounter");
 			setSize(250, 100);
+			System.out.println(this);
+			System.out.println(lblCount);
+			System.out.println(tfCount);
+			System.out.println(btnCount);
 			setVisible(true); 
+			System.out.println(this);
+			System.out.println(lblCount);
+			System.out.println(tfCount);
+			System.out.println(btnCount);
 		}
 		 public void actionPerformed(ActionEvent evt) {
 		     // tang gia tri 
