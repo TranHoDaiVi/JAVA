@@ -25,7 +25,7 @@ public class WindowEventDemo extends Frame implements ActionListener, WindowList
 		    addWindowListener(this);
 			setTitle("WindowEventDemo");
 			setSize(250, 100);
-			System.out.println(this);
+
 
 			setVisible(true); 
 
